@@ -7,11 +7,19 @@
 
     <TextView
         android:id="@+id/blueScore"
+<<<<<<< HEAD
         android:layout_width="174dp"
         android:layout_height="131dp"
         android:text="TextView"
         android:textSize="20sp"
         app:autoSizeTextType="none"
+=======
+        android:layout_width="230dp"
+        android:layout_height="131dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:autoSizeTextType="uniform"
+>>>>>>> 3d15d6198d50b046ee7a9486e94c59c1655a9954
         app:layout_constraintBottom_toTopOf="@+id/winner"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -20,11 +28,19 @@
 
     <TextView
         android:id="@+id/redScore"
+<<<<<<< HEAD
         android:layout_width="185dp"
         android:layout_height="138dp"
         android:text="blue:"
         android:textSize="20sp"
         app:autoSizeTextType="none"
+=======
+        android:layout_width="244dp"
+        android:layout_height="140dp"
+        android:text="blue:"
+        android:textSize="24sp"
+        app:autoSizeTextType="uniform"
+>>>>>>> 3d15d6198d50b046ee7a9486e94c59c1655a9954
         app:layout_constraintBottom_toTopOf="@+id/winner"
         app:layout_constraintEnd_toStartOf="@+id/blueScore"
         app:layout_constraintHorizontal_bias="0.5"
@@ -36,12 +52,17 @@
         android:layout_width="280dp"
         android:layout_height="122dp"
         android:text="TextView"
+<<<<<<< HEAD
         android:textSize="20sp"
+=======
+        android:textSize="24sp"
+>>>>>>> 3d15d6198d50b046ee7a9486e94c59c1655a9954
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+<<<<<<< HEAD
     <Button
         android:id="@+id/back"
         android:layout_width="238dp"
@@ -53,4 +74,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/winner" />
 
+=======
+>>>>>>> 3d15d6198d50b046ee7a9486e94c59c1655a9954
 </androidx.constraintlayout.widget.ConstraintLayout>
