@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class ResultsActivity extends AppCompatActivity {
     TextView redScore, blueScore, winner;
     Button back;
-//second commit
+//second   commit
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
